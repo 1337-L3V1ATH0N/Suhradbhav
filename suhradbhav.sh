@@ -20,7 +20,7 @@ banner Suhradbhav
 
 if [ $1 = '-h' ] || [ $# -ne 3 ]
 then
-	echo "[*] Usage : $0 IP port shell-type"
+	echo -e "[*] Usage : $0 IP port shell-type\nEg:- $0 127.0.0.1 8080 bash"
 	exit 1
 else
 	if [ $3 = 'bash' ]
